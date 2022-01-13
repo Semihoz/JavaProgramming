@@ -16,12 +16,8 @@ public void racing(){
 }
 
 
-
-
-
-
-
-
-
-
+    @Override
+    public void start() {
+        System.out.println("Push to Start your " + brand + " " + model);
+    }
 }
