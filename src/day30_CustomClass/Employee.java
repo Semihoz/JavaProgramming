@@ -8,6 +8,7 @@ public class Employee {
     public String jobTitle;
     public double salary;
     public boolean isFullTime;
+    public double getsalary;
 
 
     public void setInfo(String name, char gender, int age, int id, String jobTitle, double salary, boolean isFullTime) {
