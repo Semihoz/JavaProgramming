@@ -1,4 +1,4 @@
-package day45_Abstraction.Shape;
+package day46_Polymorphism.Shape;
 
 public abstract class Shape {
 
@@ -20,4 +20,6 @@ public abstract class Shape {
                         "perimeter='" + perimeter() + '\'' +
                         '}';
         }
+
+    public abstract double volume();
 }

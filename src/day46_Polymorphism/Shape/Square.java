@@ -1,4 +1,4 @@
-package day45_Abstraction.Shape;
+package day46_Polymorphism.Shape;
 
 public class Square extends Shape{
 
@@ -32,5 +32,10 @@ public class Square extends Shape{
                 super.toString()+
                 "side=" + side +
                 '}';
+    }
+
+    @Override
+    public double volume() {
+        return 0;
     }
 }

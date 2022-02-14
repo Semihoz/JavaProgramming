@@ -1,6 +1,8 @@
-package day43_Abstaction;
+package day43_Abstaction.Car;
 
-public class Audi extends Car{
+import day43_Abstaction.Car.Car;
+
+public class Audi extends Car {
 
     public Audi(String model, String color, int year, double price){
         super("Audi", model, color,year,price);

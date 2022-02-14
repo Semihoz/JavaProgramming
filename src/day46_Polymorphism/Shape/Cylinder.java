@@ -1,10 +1,10 @@
-package day45_Abstraction.Shape;
+package day46_Polymorphism.Shape;
 
-public class Cube extends Shape{
-
-    public Cube(String name) {
+public class Cylinder extends Shape{
+    public Cylinder(String name) {
         super(name);
     }
+
 
     @Override
     public double area() {
@@ -17,7 +17,9 @@ public class Cube extends Shape{
     }
 
     @Override
-    public String toString() {
-        return "Cube{}";
+    public double volume() {
+        return 0;
     }
+
+
 }

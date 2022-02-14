@@ -1,6 +1,8 @@
-package day43_Abstaction;
+package day43_Abstaction.Car;
 
-public class Honda extends Car{
+import day43_Abstaction.Car.Car;
+
+public class Honda extends Car {
 
 
     public Honda(String model, String color, int year, double price) {

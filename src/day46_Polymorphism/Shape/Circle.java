@@ -1,4 +1,4 @@
-package day45_Abstraction.Shape;
+package day46_Polymorphism.Shape;
 
 public class Circle extends Shape {
 
@@ -39,6 +39,11 @@ public class Circle extends Shape {
                 super.toString()+
                 ", radius=" + radius +
                 '}';
+    }
+
+    @Override
+    public double volume() {
+        return 0;
     }
 
 
